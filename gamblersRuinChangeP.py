@@ -14,4 +14,7 @@ for i in range (470, 499):
 plt.plot(pList, probabilityList, 'r-')
 plt.title('Gambler\'s ruin: p vs probability that G1 wins')
 plt.grid(True)
+plt.xlabel('Probability Gambler 1 wins each round')
+plt.ylabel('Probability Gambler 1 wins entire game')
 plt.show()
+plt.savefig('p_vs_pwin.png')

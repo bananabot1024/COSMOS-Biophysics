@@ -12,4 +12,7 @@ for g in range (100,2500):
 plt.plot(gList, probabilityList, 'r-')
 plt.title('Gambler\'s ruin: g=g1=g2 vs probability that G1 wins')
 plt.grid(True)
+plt.xlabel("G (starting amount for both gamblers")
+plt.ylabel("Probability that Gambler 1 wins")
 plt.show()
+#plt.savefig('g_vs_p.png')
